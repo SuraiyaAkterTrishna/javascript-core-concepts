@@ -6,4 +6,7 @@ const searchString = 'Pakhi';
 const searchStringLower = searchString.toUpperCase();
 const doesExits = lyricsLowerCase.includes(searchStringLower);
 // const doesExits = lyrics.includes('Pakhi');
-console.log(doesExits);
+// console.log(doesExits);
+
+// startWith
+console.log(lyrics.startsWith('Tumi'));
