@@ -10,3 +10,9 @@ const doesExits = lyricsLowerCase.includes(searchStringLower);
 
 // startWith
 console.log(lyrics.startsWith('Tumi'));
+
+// endsWith
+console.log(lyrics.endsWith('parini'));
+
+// indexOf
+console.log(lyrics.indexOf('ami'));
